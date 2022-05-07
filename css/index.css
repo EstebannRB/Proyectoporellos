@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    font: bold 20px verdana, sans-serif;
+}
+h2{
+    font: bold 14px verdana, sans-serif;
+}        
+header, section, footer, aside, nav, 
+article, figure, figcaption,hgroup{
+    display: block;
+}
+body{
+    text-align: center;
+}
+#logo{ 
+    float: left;
+    overflow: auto;
+}
+.menu{
+    width: 80vw;
+    background: #000000;
+    color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 22px;
+    float: bottom;
+    border: white 2px solid;
+    
+}
+.menu ul{
+    list-style: none;
+    text-align: center;
+}
+.menu ul li{
+    display: inline-block;
+    padding-left:50px;
+
+}
+.menu ul li a{
+    display: block;
+    padding: 15px;
+    text-align: none;
+    color: white; 
+}
+.menu ul li:hover{
+    color: black;
+    background: rgb(66, 66, 66);
+    padding-left:50px;
+}
+#titulo{
+    font-size: 34px;
+    margin-right: 5px;
+    padding-bottom: 10px;
+}
+#agrupar{
+    background: #000000;
+    padding: 20px;
+}
+article{
+    background: #ffffff;
+    padding: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 35px;
+    margin-right: 35px;
+    width: 1125px;
+}
+
+#columna{
+    float: left;
+    width: 220px;
+    margin: 20px 0px;
+    padding: 20px;
+    background: #CCCCCC;
+}
+#pie{
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #ffffff;
+}
+
+article footer{
+    text-align: right;
+    margin-bottom: 15px;
+}
+figcaption{
+    font: italic 14px verdana, sans-serif;
+    margin: auto;
+}
+
+.cabecera{
+    background: #000000;
+}
+
+footer{
+background: white;
+}
+.menu-footer{
+    display: block;
+}
+.metodo.pagos{
+    display: block;
+}
+
+.info{
+    display: flex;
+    margin-top: 25px;
+}
+
+
