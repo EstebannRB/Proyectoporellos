@@ -52,7 +52,7 @@ body{
     color: white; 
 }
 .menu ul li:hover{
-    color: black;
+    color: rgb(255, 255, 255);
     background: rgb(66, 66, 66);
     padding-left:50px;
 }
@@ -86,8 +86,7 @@ article{
     margin-top: 0px;
     border-radius: 4px;
     font-family: "calibri";
-    color: rgb(255, 255, 255);
-    
+    color: rgb(255, 255, 255);    
 }
 .form1{
     width: 100%;
@@ -111,14 +110,35 @@ article{
 #title{
     width: 100%;
 }
-#boton{
-    width: 80px;
-    float: right;
-    background: #484646 ;
-    border: none;
-    margin: 16px 0;
-    color: white;
+
+.formulario__label, .formulario__input, .formulario__submit{
+    display: block;
+    width: 100%;
+    font-size: 1,3em;
 }
+.formulario__input{
+    padding: 15px;
+    margin-bottom: 40px;
+}
+.formulario__input:focus + .formulario__label{
+    margin-top: -130px;
+}
+.formulario__label{
+    color: #000000;
+    margin-top: -85px;
+    position: absolute;
+    padding-right: 2000px;
+    transition: all 0,5s;
+}
+.formulario__submit{
+    color: #000000;
+    background: #ffffff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+}
+.fijar{margin-top: -135px ;}
+
 .menu-footer{
     display: block;
 }

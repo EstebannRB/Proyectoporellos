@@ -1,0 +1,29 @@
+{
+  "name": "proyecto-por-ellos",
+  "version": "1.0.0",
+  "description": "Mi Primera Pagina Web",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EstebannRB/PorEllos.git"
+  },
+  "author": "Esteban Rojas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EstebannRB/PorEllos/issues"
+  },
+  "homepage": "https://github.com/EstebannRB/PorEllos#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "heroku": "^7.60.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "nodemailer": "^6.7.7",
+    "nodemon": "^2.0.19",
+    "path": "^0.12.7"
+  }
+}
